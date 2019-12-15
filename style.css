@@ -1,0 +1,293 @@
+/* ========================
+	PORTFOLIO STYLESHEET 
+=========================== */
+
+/* ------ Base code written for mobile view first, media queries will apply proper formatting for tablet and desktop views 
+		  See responsive.css for media query formatting.
+------ */
+
+
+/* ========================
+	GENERAL
+=========================== */
+
+* {
+	box-sizing: border-box;
+}
+
+/* --- Just to see where everything is and how it's working 
+* {
+	border: 2px solid black;
+}
+--- */
+
+/* ========================
+	HEADER
+=========================== */
+
+header {
+	overflow: none;
+	background-color: #0d98c6;
+	
+}
+a {
+	text-decoration: none;
+}
+.main-logo {
+	margin: 0 auto;
+	text-align: center;
+}
+.main-logo a {
+	color: black;
+	display: block;
+}
+.main-logo h1 {
+	margin-bottom: 0;
+}
+.main-logo h3 {
+	margin-top: 0;
+}
+.main-logo-link img {
+	height: 200px;
+	
+}
+/* ========================
+	NAVIGATION
+=========================== */
+
+ul {
+	list-style: none;
+}
+.nav-container {
+	margin: 0 auto;
+	padding: 0;
+}
+.nav {
+	text-align: center;
+	padding-left: 0;
+	margin: 0 auto;
+	
+	
+}
+.nav li {
+	margin: 0 auto; 
+	height: 3em;
+	padding-top: 5px;
+	border-radius: 5%;
+	display: inline-block;
+	width: 32%;
+	overflow: hidden;
+	
+}
+.nav a {
+	color: white;
+	display: block; /*still not taking up the entire parent container...not sure how to address the space at the top and bottom */
+	margin: 0;
+	padding: 10px 0;
+	font-size: 1.25em;
+	font-family: Arial, sans-serif;
+	
+	
+}
+
+
+/* ========================
+   SECTION
+=========================== */
+.banner,
+.portfolio,
+.aboutme,
+.contactme {
+	width: 100%;
+	/*border: solid 2px black; */
+	overflow: hidden;
+}
+h3,
+.portheading {
+	text-align: center;
+	font-family: Calibri, sans-serif;
+}
+
+
+/* ========================
+	BANNER
+=========================== */
+
+.banner {
+	height: 200px;
+	display: none;
+}
+.banner p,
+.contactme p {
+	font-style: italic;
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+}
+
+/* ========================
+	PORTFOLIO
+=========================== */
+
+.portfolio {
+	height: 65%;
+	width: 100%;
+}
+.portfolio img {
+	height: 10em;
+	margin: 0 auto;
+	border: 2px #004570 solid;
+	border-radius: 5px;
+	display: block;
+	
+}
+.portfolio p {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	color: #004570;
+	font-style: italic;
+	font-size: .85em;
+}
+.portfolio h3,
+.portheading {
+	color: #004570;
+	
+}
+
+.col1,
+.col2,
+.col3 {
+	width: 100%;
+	height: 65%; /* Not sure what height to make it yet */
+	border: 2px black solid;
+	margin: 1em auto;
+}
+
+.col2 img {
+	max-width: 100%;
+	
+}
+.portheading {
+	text-align: center;
+	
+}
+
+
+
+/* ========================
+	CONTACT ME
+=========================== */
+
+.desktop-only {
+	display: none;
+}
+.hide {
+	display: none;
+}
+.contactme {
+	height: 200px;
+	background-color: #004570;
+}
+
+.contact-info {
+	display: none;
+	
+}
+.contactme h3 {
+	color: #8cc7cc;
+}
+.contactme ul {
+	margin: 0 auto;
+	text-align: center;
+}
+.contactme li {
+	display: inline-block;
+	margin: 0 2%;
+}
+.contactme li:nth-child(1) {
+	margin-left: -55px;
+	/* To center the two li elements, which were not visually center with just the text-align property. */
+	/* When the phone icon is added, this margin value should be -35px */
+}
+.contactme img {
+	height: 60px;
+}
+.contactme p {
+	text-align: center;
+	color: #8cc7cc;
+}
+
+
+
+/* ========================
+	ABOUT ME
+=========================== */
+
+.aboutme {
+	height: 600px;
+}
+
+.aboutme h3 {
+	color: #004570;
+	text-align: center;
+}
+.aboutme p {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+}
+.aboutme img {
+	height: 150px;
+	border-radius: 100%;
+	display: block;
+	margin: 5px auto 0;
+}
+
+
+.not-for-mobile {
+	display: none;
+}
+
+
+/* ========================
+	FOOTER
+=========================== */
+
+footer {
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	background-color: #0d98c6;
+}
+footer p {
+	font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

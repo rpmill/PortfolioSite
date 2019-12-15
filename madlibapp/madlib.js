@@ -1,0 +1,110 @@
+alert('Please have pop-ups enabled to proceed.');
+
+// Defining my variables
+var questions = 24;
+var questionsLeft = ' [' + questions + ' questions left!]';
+var author = prompt('What is your name? ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var numberOne = prompt('Give me a number. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var noun = prompt('Give me a noun. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var nounTwo = prompt('Give me another noun. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var adjective = prompt('Give me an adjective. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var nounThree = prompt('Give me another noun. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var verb = prompt('Give me a verb. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var nounFour = prompt('Give me another noun. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var verbTwo = prompt('Give me another verb. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var verbThree = prompt('Give me another verb + ing. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var nounFive = prompt('Give me another noun in plural. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var adjectiveTwo = prompt('Give me another adjective. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var nounSix = prompt('Give me another noun. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var verbFour = prompt('Give me another verb in past tense. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var verbFive = prompt('Give me another verb. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var verbSix = prompt('Give me yet another verb. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var adjectiveThree = prompt('Give me another adjective. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var adjectiveFour = prompt('How about another adjective. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var nounSix = prompt('Another noun, if you please. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var nounSeven = prompt('Even if you don\'t please, give me another noun, in plural. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var adverb = prompt('Give me an adverb. (Ends in ly) ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var verbSeven = prompt('Another verb please, almost done. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var verbEight = prompt('Pretty please, another verb, past tense. ' + questionsLeft);
+questions -= 1;
+questionsLeft = ' [' + questions + ' questions left!]';
+var nounNine = prompt('Another noun, please, in plural. ' + questionsLeft);
+var nounEight = prompt('Lastly, another noun, please.');
+
+alert('Ready to see what you\'ve done?');
+
+//The actual story part
+var story = "<p>Four score and <span>" + numberOne.toUpperCase() + "</span> years ago our ";
+story += "<span>" + noun.toUpperCase() + "S</span> brought forth on this continent a new <span>" + nounTwo.toUpperCase();
+story += "</span>, conceived in Liberty, and dedicated to the proposition that all men are created <span>" + adjective.toUpperCase() + "</span>.</p>";
+story += "<p> Now we are engaged in a great <span>" + nounThree.toUpperCase() + "</span>, testing whether that <span>" + nounTwo.toUpperCase();
+story += "</span>, or any <span>" + nounTwo.toUpperCase() + "</span> so conceived and so dedicated, can long <span>" + verb.toUpperCase() + "</span>.";
+story += " We are met on a great <span>" + nounFour.toUpperCase() + "</span> of that place for those who here gave their <span>" + nounFive.toUpperCase();
+story += "</span> that that <span>" + nounTwo.toUpperCase() + "</span> might live. It is altogether fitting and <span>" + adjectiveTwo.toUpperCase() + "</span> that we should do this.</p>";
+story += "<p> But, in a larger sense, we can not <span>" + verbTwo.toUpperCase() + "</span> -- we can not consecrate -- we can not hallow -- this <span>";
+story += nounSix.toUpperCase() + "</span>.";
+story += " The brave men, living and dead, who <span>" + verbFour.toUpperCase() + "</span> here, have consecrated it, far above our poor power to add or detract.";
+story += " The world will little note, nor long <span>" + verbFive.toUpperCase() + "</span> what we <span>" + verbSix.toUpperCase();
+story += "</span> here, but it can never forget what they did here.</p>";
+story += "<p> It is for us the living, rather, to be dedicated here to the <span>" + adjectiveThree.toUpperCase();
+story += "</span> work which they who fought here have thus far so <span>" + adverb.toUpperCase() + "</span> advanced.</p>";
+story += "<p>It is rather for us to be here dedicated to the <span>" + adjectiveFour.toUpperCase() + "</span> task remaining before us";
+story += " -- that from these honored dead we take increased devotion to that <span>" + nounSix.toUpperCase();
+story += "</span> for which they gave the last full measure of devotion";
+story += " -- that we here highly resolve that these <span>" + nounNine.toUpperCase() + "</span> shall not have <span>";
+story+= verbEight.toUpperCase() + "</span> in vain -- that this <span>" + nounTwo.toUpperCase() + "</span>, under God, shall have a new birth of freedom";
+story += " -- and that government of the <span>" + nounSeven.toUpperCase() + "</span>, by the <span>" + nounSeven.toUpperCase();
+story += "</span>, for the <span>" + nounSeven.toUpperCase() + "</span>, shall not <span>" + verbSeven.toUpperCase();
+story += "</span> from the <span>" + nounEight.toUpperCase() + "</span>.</p>";
+
+document.write(story);
+
+author = '<p class="author">Penned by ' + author + '</p>';
+
+document.write(author);
+// See if I can insert a random "Fun Fact" or something below, maybe out of ten or so options?
+

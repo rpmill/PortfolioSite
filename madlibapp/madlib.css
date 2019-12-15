@@ -1,0 +1,119 @@
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+
+section {
+  display: block;
+}
+
+body {
+  padding: 25px 0 0;
+	background-color: #0d98c6;
+  font-family: Monotype Corsiva, Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+}
+
+#wrapper {
+	max-width: 1004px;
+	height: 700px;
+	margin: 0 auto;
+	background: url('img/parch-bg.jpg') no-repeat;
+	padding: 2% .5%;
+	border: 2px #384047 solid;
+	border-radius: 5px;
+	
+}
+
+
+
+h1,
+h2 {
+  font-size: 2.4em;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: #384047;
+  line-height: 1.2;
+}
+
+h1 {
+	font-family: Monotype Corsiva, Arial, cursive;
+	text-decoration: underline;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+span {
+	font-family: Calibri, Arial, sans-serif;
+	font-weight: bold;
+}
+p {
+  color: #384047;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+a {
+	text-decoration: none;	
+}
+.author {
+	text-align: right;
+	font-size: 1.4em;
+}
+.container {
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 980px;
+  background: rgba(255,255,255,0.5);
+  padding: 30px 15px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.heading,
+.form_container {
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+}
+
+footer {
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	background-color: #0d98c6;
+}
+footer p {
+	font-family: Arial, sans-serif;
+}
+
+.not-for-mobile {
+	display: none;
+}
+
+
